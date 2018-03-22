@@ -23,3 +23,8 @@ How-To:
   -Follow the script prompts.
   
   -Press 'spacebar' to close 'cmd' window.
+
+@TODO:
+Packages not identified:
+
+Packages to add:

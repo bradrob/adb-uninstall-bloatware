@@ -65,6 +65,15 @@ adb shell "pm uninstall --user 0 com.amazon.kindle" > CON
 echo "Uninstalling Audible" > CON
 adb shell "pm uninstall --user 0 com.audible.application" > CON
 echo "############################" > CON
+echo "Uninstalling Android packages" > CON
+echo "############################" > CON
+echo "Uninstalling Voicemail" > CON
+adb shell "pm uninstall --user 0 com.coremobility.app.vnotes" > CON
+echo "Uninstalling Calendar Widget" > CONc
+adb shell "pm uninstall --user 0 com.sec.android.widgetapp.SPlannerAppWidget"
+echo "Uninstalling Calendar" > CON
+adb shell "pm uninstall --user 0 com.android.calendar" > CON
+echo "############################" > CON
 echo "Uninstalling Flipboard packages" > CON
 echo "############################" > CON
 echo "Uninstalling Flipboad App" > CON
@@ -109,8 +118,6 @@ echo "Uninstalling Peel Smart Remote" > CON
 adb shell "pm uninstall --user 0 tv.peel.smartremote" > CON
 echo "Uninstalling Dropbox." > CON
 adb shell "pm uninstall --user 0 com.dropbox.android" > CON
-echo "Uninstalling Sprint Spot" > CON
-adb shell "pm uninstall --user 0 com.sprint.fng" > CON
 echo "Uninstalling IMDB" > CON
 adb shell "pm uninstall --user 0 com.imdb.mobile" > CON
 echo "Uninstalling Slacker Radio" > CON
@@ -119,20 +126,40 @@ echo "Uninstalling NFL Game Center" > CON
 adb shell "pm uninstall --user 0 com.gotv.nflgamecenter.us.lite" > CON
 echo "Uninstalling Polaris Office 5" > CON
 adb shell "pm uninstall --user 0 com.infraware.polarisoffice5" > CON
+echo "############################" > CON
+echo "Uninstalling Samsung packages" > CON
+echo "############################" > CON
 echo "Uninstalling S Health" > CON
 adb shell "pm uninstall --user 0 com.sec.android.app.shealth" > CON
+echo "Uninstalling S Health Remote" > CON
+adb shell "pm uninstall --user 0 com.sec.android.app.shealth:remote" > CON
+echo "Uninstalling S Voice" > CON
+adb shell "pm uninstall --user 0 com.vlingo.midas" > CON
 echo "Uninstalling Samsung +" > CON
 adb shell "pm uninstall --user 0 com.samsung.oh" > CON
 echo "Uninstalling Samsung Voice Recorder" > CON
 adb shell "pm uninstall --user 0 com.sec.android.app.voicenote" > CON
-echo "Uninstalling Galaxy Finder" > CON
+echo "Uninstalling Galaxy S Finder" > CON
 adb shell "pm uninstall --user 0 com.samsung.android.app.galaxyfinder" > CON
 echo "Uninstalling Galaxy Apps" > CON
 adb shell "pm uninstall --user 0 com.sec.android.app.samsungapps" > CON
-echo "Uninstalling Carrier Call Utility/CoreZone/My Sprint" > CON
-adb shell "pm uninstall --user 0 com.sprint.zone" > CON
 echo "Uninstalling Galaxy Apps Widget" > CON
 adb shell "pm uninstall --user 0 com.samsung.android.widget.galaxyfinder" > CON
+echo "Uninstalling Galaxy Quick connect" > CON
+adb shell "pm uninstall --user 0 com.samsung.android.sconnect" > CON
+echo "Uninstalling Samsung DM Sync Service ('Handsfree Activation') > CON
+adb shell "pm uninstall --user 0 com.samsung.syncservice" > CON
+echo "############################" > CON
+echo "Uninstalling Sprint packages" > CON
+echo "############################" > CON
+echo "Uninstalling Carrier Call Utility/CoreZone/My Sprint" > CON
+adb shell "pm uninstall --user 0 com.sprint.zone" > CON
+echo "Uninstalling Sprint Spot" > CON
+adb shell "pm uninstall --user 0 com.sprint.fng" > CON
+echo "Uninstalling Device Self Service" > CON
+adb shell "pm uninstall --user 0 com.sprint.dsa" > CON
+echo "Uninstalling Carrier Hub" > CON
+adb shell "pm uninstall --user 0 com.sprint.ms.smf.services" > CON
 echo "############################" > CON
 echo "Uninstalling Verizon packages" > CON
 echo "############################" > CON
@@ -145,7 +172,38 @@ adb shell "pm uninstall --user 0 com.vznavigator.Generic" > CON
 echo "Uninstalling Verizon Messaging" > CON
 adb shell "pm uninstall --user 0 com.verizon.messaging.vzmsgs" > CON
 echo "Uninstalling Verizon Cloud" > CON
+echo "############################" > CON
+echo "Uninstalling more packages..." > CON
+echo "############################" > CON
 adb shell "pm uninstall --user 0 com.vcast.mediamanager" > CON
+adb shell "pm uninstall --user 0 com.cequint.ecid" > CON
+adb shell "pm uninstall --user 0 com.vzw.hss.myverizon" > CON
+adb shell "pm uninstall --user 0 com.android.email" > CON
+adb shell "pm uninstall --user 0 com.samsung.spg" > CON
+adb shell "pm uninstall --user 0 com.vlingo.midas" > CON
+adb shell "pm uninstall --user 0 com.samsung.vvm" > CON
+adb shell "pm uninstall --user 0 com.sec.android.app.setupwizard" > CON
+adb shell "pm uninstall --user 0 com.samsung.everglades.video" > CON
+adb shell "pm uninstall --user 0 com.samsung.helphub" > CON
+adb shell "pm uninstall --user 0 com.samsung.android.app.memo" > CON
+adb shell "pm uninstall --user 0 com.android.mms" > CON
+adb shell "pm uninstall --user 0 com.qti.backupagent" > CON
+adb shell "pm uninstall --user 0 com.samsung.android.scloud.backup" > CON
+adb shell "pm uninstall --user 0 com.sprint.ms.smf.services" > CON
+adb shell "pm uninstall --user 0 com.sprint.psdg.sw" > CON
+adb shell "pm uninstall --user 0 com.sec.android.widgetapp.digitalclock" > CON
+adb shell "pm uninstall --user 0 com.sec.android.widgetapp.digitalclockeasy" > CON
+adb shell "pm uninstall --user 0 com.android.contacts" > CON
+adb shell "pm uninstall --user 0 com.sec.android.widgetapp.dualclockdigital" > CON
+adb shell "pm uninstall --user 0 com.android.mms" > CON
+adb shell "pm uninstall --user 0 com.android.email" > CON
+adb shell "pm uninstall --user 0 com.sec.kidsplat.installer" > CON
+adb shell "pm uninstall --user 0 com.sec.android.app.music" > CON
+adb shell "pm uninstall --user 0 com.samsung.android.sm" > CON
+adb shell "pm uninstall --user 0 com.sec.android.widget.samsungapps" > CON
+adb shell "pm uninstall --user 0 com.sec.android.service.health" > CON
+adb shell "pm uninstall --user 0 com.asurion.android.verizon.vms" > CON
+
 echo END OF LOG > CON
 echo End of  Uninstall Script > CON
 :End

@@ -41,21 +41,13 @@ Recommended apps - com.sec.android.pagebuddynotisvc
 
 Geo News - com.sec.android.GeoLookout
 
-Camera - com.sec.android.app.camera
-
 Samsung Content Agent - com.sec.android.app.SamsungContentAgent
-
-Bluetooth Share - com.android.bluetooth
 
 NFC Service - com.android.nfc
 
 Contacts - com.android.contacts
 
 Messages - com.android.mms
-
-Google Play Services - com.google.android.gms.persistent
-
-Google Play Store - com.android.vending
 
 Music - com.sec.android.app.music
 
